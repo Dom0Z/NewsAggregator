@@ -1,4 +1,4 @@
-package com.example.newsaggregator;
+package fin.ex.newsaggregator;
 
 import android.content.Context;
 

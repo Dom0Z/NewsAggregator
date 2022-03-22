@@ -1,4 +1,4 @@
-package com.example.newsaggregator;
+package fin.ex.newsaggregator;
 
 public class NewsSource {
     private final String id;

@@ -1,4 +1,4 @@
-package com.example.newsaggregator;
+package fin.ex.newsaggregator;
 
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.newsaggregator.R;
 
 public class ArticleViewHolder extends RecyclerView.ViewHolder {
     TextView articleHeadlineTV;

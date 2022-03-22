@@ -1,10 +1,12 @@
-package com.example.newsaggregator;
+package fin.ex.newsaggregator;
 
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.util.Log;
 
 import androidx.core.content.ContextCompat;
+
+import com.example.newsaggregator.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,7 +22,6 @@ import java.util.Date;
 import java.util.Locale;
 
 import javax.net.ssl.HttpsURLConnection;
-import javax.xml.transform.Source;
 
 public class ArticleDownloadRunnable implements Runnable {
     private static final String TAG = "DownloadRunnable";
